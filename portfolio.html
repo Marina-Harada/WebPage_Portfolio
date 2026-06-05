@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>Marina Harada Portfolio</title>
+    <meta name="description" content="原田万里奈のポートフォリオサイトです" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="keywords" content="ポートフォリオ" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+    />
+
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="./assets/js/script.js"></script>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__inner">
+          <div class="header__logo">
+            <a href="#" class="header__logo__link">Marina Harada Portfolio</a>
+          </div>
+          <nav class="header__menu">
+            <ul class="header__list">
+              <li class="header__item">
+                <a href="#about" class="header__link">About me</a>
+              </li>
+              <li class="header__item">
+                <a href="#skills" class="header__link">Skills</a>
+              </li>
+              <li class="header__item">
+                <a href="#works" class="header__link">Works</a>
+              </li>
+              <li class="header__item">
+                <a href="#technotes" class="header__link">Tech Notes</a>
+              </li>
+              <li class="header__item">
+                <a href="#contact" class="header__link">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <main class="main">
+        <div class="main__inner">
+          <section class="top" id="top">
+            <div class="top__heading">
+              <h1 class="top__title">Welcome To My Portfolio</h1>
+            </div>
+            <p class="top__scroll">
+              <div class="top__scroll-bar"><span>scroll</span></div>
+            </p>
+          </section>
+
+<!-- 自己紹介 -->
+          <section class="about" id="about">
+            <div class="c-inner-lv1">
+              <h2 class="c-heading-lv1 js-fadein">About Me</h2>
+              <div class="container">
+                <div class="row">
+                  <div class="about__img col-sm-5 js-fadein">
+                    <img src="./assets/images/Web_tem_Profile.png" alt="自分の写真" />
+                    <h3 class="about__name">Marina Harada</h3>
+                  </div>
+                  <div class="about__prof col-sm-7 js-fadein">
+                    <p class="about__info">
+                      プロフィール<br />
+                      <br />
+                      <h1>
+                       氏名：原田万里奈
+                      </h1>
+                      <br />
+                      <h1>
+                       学校名：専門学校北海道サイバークリエイターズ大学校
+                      </h1>
+                      <br />
+                      <h1>
+                       趣味：
+                      </h1>
+                      スポーツ観戦(主に野球観戦)<br />
+                      カラオケ<br />
+                      気分転換やアイディアを求めて1人で出掛けること<br />
+                      <br />
+
+<div class="about__pet">
+  <p>
+    犬を飼っていて、実家に帰るとずっと甘えてきてくれます。<br />
+    そのお陰で気分転換やアイディア整理にもなっています。
+  </p>
+</div>
+<br>
+                      <h1>
+                      ゲーム制作経験：
+                      </h1>
+                      個人制作7作品<br />
+                      チーム制作3作品<br />
+
+                      <p class="about__message">
+                      ユーザーが「面白い」と感じる体験を追求し、
+                      ゲーム制作を中心に学習しています。
+                      </p>
+
+                      <div class="git-page">
+                        <i class="fas fa-link"></i>
+                        <a href="https://github.com/Marina-Harada" target="_blank">GitHub</a>
+                      </div>
+
+<div class="about__dogs-area">
+
+  <img src="./assets/images/Web_pet_1.png"
+       class="about__dog dog1"
+       alt="犬1">
+
+  <img src="./assets/images/Web_pet_2.png"
+       class="about__dog dog2"
+       alt="犬2">
+
+  <img src="./assets/images/Web_pet_3.png"
+       class="about__dog dog3"
+       alt="犬3">
+
+</div>
+
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+<!-- スキル（C++等） -->
+          <section class="skills" id="skills">
+            <div class="c-inner-lv1">
+              <h2 class="c-heading-lv1 js-fadein">Skills</h2>
+              <div class="container skills__container js-fadein">
+                <ul class="row">
+<!-- 各々のスキル -->
+                  <li class="skills__item col-md-3">
+                    <div class="skills__block">
+                        <div class="skills__circle" data-progress="90">
+                            <div class="skills__circle-inner">
+                                <div class="skills__icon">
+                                    <img
+                                    src="./assets/images/icons/Web_logo_Cgengo.png"
+                                    alt="C言語アイコン"
+                                    />
+                                </div>
+                                <div class="skill_per">90%</div>
+                            </div>
+                        </div>
+                        <h3 class="skills__name">C言語</h3>
+                    </div>
+                  </li>
+                  <li class="skills__item col-md-3">
+                    <div class="skills__block">
+                        <div class="skills__circle" data-progress="90">
+                            <div class="skills__circle-inner">
+                                <div class="skills__icon">
+                                    <img
+                                    src="./assets/images/icons/Web_logo_C++.png"
+                                    alt="C++アイコン"
+                                    />
+                                </div>
+                                <div class="skill_per">90%</div>
+                            </div>
+                        </div>
+                        <h3 class="skills__name">C++</h3>
+                    </div>
+                  </li>
+                  <li class="skills__item col-md-3">
+                    <div class="skills__block">
+                        <div class="skills__circle" data-progress="70">
+                            <div class="skills__circle-inner">
+                                <div class="skills__icon">
+                                    <img
+                                    src="./assets/images/icons/Web_logo_Unity.png"
+                                    alt="Unityアイコン"
+                                    />
+                                </div>
+                                <div class="skill_per">70%</div>
+                            </div>
+                        </div>
+                        <h3 class="skills__name">Unity</h3>
+                    </div>
+                  </li>
+                  <li class="skills__item col-md-3">
+                    <div class="skills__block">
+                        <div class="skills__circle" data-progress="70">
+                            <div class="skills__circle-inner">
+                                <div class="skills__icon">
+                                    <img
+                                    src="./assets/images/icons/Web_logo_UE.png"
+                                    alt="UEアイコン"
+                                    />
+                                </div>
+                                <div class="skill_per">70%</div>
+                            </div>
+                        </div>
+                        <h3 class="skills__name">Unreal Engine</h3>
+                    </div>
+                  </li>
+                  <li class="skills__item col-md-3">
+                    <div class="skills__block">
+                        <div class="skills__circle" data-progress="90">
+                            <div class="skills__circle-inner">
+                                <div class="skills__icon">
+                                    <img
+                                    src="./assets/images/icons/Web_logo_Ps.png"
+                                    alt="Psアイコン"
+                                    />
+                                </div>
+                                <div class="skill_per">90%</div>
+                            </div>
+                        </div>
+                        <h3 class="skills__name">Photoshop</h3>
+                    </div>
+                  </li>
+                  <li class="skills__item col-md-3">
+                    <div class="skills__block">
+                        <div class="skills__circle" data-progress="70">
+                            <div class="skills__circle-inner">
+                                <div class="skills__icon">
+                                    <img
+                                    src="./assets/images/icons/Web_logo_Git.png"
+                                    alt="Gitアイコン"
+                                    />
+                                </div>
+                                <div class="skill_per">70%</div>
+                            </div>
+                        </div>
+                        <h3 class="skills__name">git</h3>
+                    </div>
+                  </li>
+                 </ul>
+              </div>
+            </div>
+          </section>
+
+<!-- ゲーム作品一覧 -->
+          <section class="works" id="works">
+            <div class="c-inner-lv1 works__inner">
+              <h2 class="c-heading-lv1 js-fadein">WORKS</h2>
+              <div class="container">
+                <div class="row works__row">
+<!-- 後期C++作品 -->
+                  <div class="works__link col-md-4 js-fadein--queue"onclick="openModal('modal1')">
+                    <p class="works__img">
+                      <img src="./assets/images/Web_Work_Second SemesterC++.png" alt="" />
+                    </p>
+                    <div class="works__box">
+                      <h3 class="works__title">
+                        後期C++作品<br class="u-hidden-pc" />
+                      </h3>
+                      <div class="works__lang"><span class="works__lang--Cpp">C++</span></div>
+                      <p class="works__txt">
+                        2年生後期にC++を使用したゲーム作品です。
+                      </p>
+                    </div>
+<div class="works__more">
+  View More →
+</div>
+                  </div>
+<!-- 前期C++作品 -->
+                  <div class="works__link col-md-4 js-fadein--queue"onclick="openModal('modal2')">
+                  <p class="works__img">
+                    <img src="./assets/images/Web_Work_First SemesterC++.png" alt="" />
+                  </p>
+                  <div class="works__box">
+                    <h3 class="works__title">
+                      前期C++作品
+                    </h3>
+                    <div class="works__lang"><span class="works__lang--Cpp">C++</span></div>
+                    <p class="works__txt">
+                      2年生前期にC++を使用したゲーム作品です。<br>
+                    </p>
+                  </div>
+<div class="works__more">
+  View More →
+</div>
+                </div>
+<!-- C++チーム作品 -->
+                  <div class="works__link col-md-4 js-fadein--queue"onclick="openModal('modal3')">
+                    <p class="works__img">
+                      <img src="./assets/images/Web_Work_teamC++.png" alt="" />
+                    </p>
+                    <div class="works__box">
+                      <h3 class="works__title">
+                        C++チーム<br class="u-hidden-pc" />                      
+                      </h3>
+                      <div class="works__lang"><span class="works__lang--Cpp">C++</span></div>
+                      <p class="works__txt">
+                        C++を使用したチーム制作作品です。<br>
+                        自分はサウンドとシフトマネージャを担当しました。
+                      </p>
+                    </div>
+<div class="works__more">
+  View More →
+</div>
+                  </div>
+<!-- C言語チーム作品 -->
+                  <div class="works__link col-md-4 js-fadein--queue"onclick="openModal('modal4')">
+                    <p class="works__img">
+                      <img src="./assets/images/Web_Work_team_C.png" alt="" />
+                    </p>
+                    <div class="works__box">
+                      <h3 class="works__title">
+                        C言語チーム<br class="u-hidden-pc" />
+                      </h3>
+                      <div class="works__lang"><span class="works__lang--C">C言語</span></div>
+                      <p class="works__txt">
+                        初めてのチーム制作作品です。<br>
+                        自分はタイマーの部分と少しのプログラムを担当しました。
+                      </p>
+                    </div>
+<div class="works__more">
+  View More →
+</div>
+                  </div>
+<!-- C言語2Dアクション作品 -->
+                  <div class="works__link col-md-4 js-fadein--queue"onclick="openModal('modal5')">
+                    <p class="works__img">
+                      <img src="./assets/images/Web_Work_2DAct_C.png" alt="" />
+                    </p>
+                    <div class="works__box">
+                      <h3 class="works__title">C言語2Dアクション</h3>
+                      <div class="works__lang"><span class="works__lang--C">C言語</span></div>
+                      <p class="works__txt">
+                        C言語を使用した2Dアクションゲーム作品です。<br>
+                      </p>
+                    </div>
+<div class="works__more">
+  View More →
+</div>
+                  </div>
+<!-- Unity作品 -->
+                  <div class="works__link col-md-4 js-fadein--queue"onclick="openModal('modal6')">
+                    <p class="works__img">
+                      <img src="./assets/images/Web_Work_Unity.png" alt="" />
+                    </p>
+                    <div class="works__box">
+                      <h3 class="works__title">Unity</h3>
+                      <div class="works__lang"><span class="works__lang--Cs">C#</span></div>
+                      <p class="works__txt">
+                        Unityで初めて自分で一から考え、制作した作品です。
+                      </p>
+                    </div>
+<div class="works__more">
+  View More →
+</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+<!-- 各作品モーダル -->
+<!-- 後期C++モーダル -->
+<div id="modal1" class="modal">
+  <div class="modal__content">
+
+    <span class="modal__close" onclick="closeModal()">&times;</span>
+
+    <h2>後期C++作品</h2>
+
+ <!-- 画像スライダー -->
+<div class="modal__slider">
+
+    <button class="modal__arrow left" onclick="prevImage()">
+        ❮
+    </button>
+
+    <div class="modal__viewer"></div>
+
+    <button class="modal__arrow right" onclick="nextImage()">
+        ❯
+    </button>
+</div>
+
+    <p>
+      スタート・ゴール・範囲を設定し、ゲームを開始する度にランダムでステージが生成される<br>
+      再帰バックトラック法を用いたランダムステージ生成を実装<br>
+      開始ごとに異なる探索体験を実現
+    </p>
+
+    <h3>--使用技術--</h3>
+    <ul>
+      <li>C++</li>
+      <li>DirectX9</li>
+      <li>再帰バックトラック法</li>
+      <li>AABB当たり判定</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 前期C++モーダル -->
+<div id="modal2" class="modal">
+  <div class="modal__content">
+
+    <span class="modal__close" onclick="closeModal()">&times;</span>
+
+    <h2>前期C++作品</h2>
+
+  <!-- 画像スライダー -->
+<div class="modal__slider">
+
+    <button class="modal__arrow left" onclick="prevImage()">
+        ❮
+    </button>
+
+    <div class="modal__viewer"></div>
+
+    <button class="modal__arrow right" onclick="nextImage()">
+        ❯
+    </button>
+</div>
+
+    <p>
+      ベクトルで距離を取り、複雑な式を使わずに一定の速度を優先し、プレイヤーが直感的に操作できるよう制作<br>
+      足場を作って進んでいくのは簡単になってしまうので、棘を設置したり消せるブロックを設置してステージ難易度を調整<br>
+消せるブロックの仕組みとしてはbool型で使用しているかを管理し、プレイヤーとブロックの極が一致していればfalse、一致していなければ何もせずtrueのままで表示という風に制作
+    </p>
+
+    <h3>--使用技術--</h3>
+    <ul>
+      <li>C++</li>
+      <li>DirectX9</li>
+      <li>ベクトル</li>
+      <li>bool型による磁極管理</li>
+    </ul>
+  </div>
+</div>
+
+<!-- C++チームモーダル -->
+<div id="modal3" class="modal">
+  <div class="modal__content">
+
+    <span class="modal__close" onclick="closeModal()">&times;</span>
+
+    <h2>C++チーム作品</h2>
+
+   <!-- 画像スライダー -->
+<div class="modal__slider">
+
+    <button class="modal__arrow left" onclick="prevImage()">
+        ❮
+    </button>
+
+    <div class="modal__viewer"></div>
+
+    <button class="modal__arrow right" onclick="nextImage()">
+        ❯
+    </button>
+</div>
+
+    <p>
+      サウンドとタイムマネージャーを担当<br>
+根本的なプログラムにはあまり携わっていませんが、サウンド探しや各SEを指定された場所に入れ込む際に行動と音が合うようにコードを工夫し、行動が終わり次第違和感の無いように制作
+    </p>
+
+    <h3>--使用技術--</h3>
+    <ul>
+      <li>C++</li>
+      <li>DirectX9</li>
+      <li>チームリーダー制作エディタ</li>
+    </ul>
+  </div>
+</div>
+
+<!-- C言語チームモーダル -->
+<div id="modal4" class="modal">
+  <div class="modal__content">
+
+    <span class="modal__close" onclick="closeModal()">&times;</span>
+
+    <h2>C言語作品</h2>
+
+    <!-- 画像スライダー -->
+<div class="modal__slider">
+
+    <button class="modal__arrow left" onclick="prevImage()">
+        ❮
+    </button>
+
+    <div class="modal__viewer"></div>
+
+    <button class="modal__arrow right" onclick="nextImage()">
+        ❯
+    </button>
+</div>
+
+    <p>
+タイマー全てとアイテムモデルに関してのプログラムを少し担当<br>
+当初は2人プレイの実装を目指していましたが、開発過程でカメラを2つ同時に描画する機能を実装<br>
+プレイヤー視点と敵視点をそれぞれ表示することで、双方の状況を可視化し、より戦略的なゲーム体験を実現
+</p>
+
+    <h3>--使用技術--</h3>
+    <ul>
+      <li>C言語</li>
+      <li>DirectX9</li>
+      <li>カメラ処理</li>
+      <li>球による当たり判定</li>
+    </ul>
+  </div>
+</div>
+
+<!-- C言語2Dアクションモーダル -->
+<div id="modal5" class="modal">
+  <div class="modal__content">
+
+    <span class="modal__close" onclick="closeModal()">&times;</span>
+
+    <h2>C言語2Dアクション作品</h2>
+
+   <!-- 画像スライダー -->
+<div class="modal__slider">
+
+    <button class="modal__arrow left" onclick="prevImage()">
+        ❮
+    </button>
+
+    <div class="modal__viewer"></div>
+
+    <button class="modal__arrow right" onclick="nextImage()">
+        ❯
+    </button>
+</div>
+
+    <p>
+     プレイヤーの移動を自動化し操作をジャンプのみの簡易操作で制作<br>
+自動化により強制スクロールとなるため難易度がちょうどよくなる<br>
+    </p>
+
+    <h3>--使用技術--</h3>
+    <ul>
+      <li>C++</li>
+      <li>DirectX9</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Unityモーダル -->
+<div id="modal6" class="modal">
+  <div class="modal__content">
+
+    <span class="modal__close" onclick="closeModal()">&times;</span>
+
+    <h2>Unity作品</h2>
+    <!-- 画像スライダー -->
+<div class="modal__slider">
+
+    <button class="modal__arrow left" onclick="prevImage()">
+        ❮
+    </button>
+
+    <div class="modal__viewer"></div>
+
+    <button class="modal__arrow right" onclick="nextImage()">
+        ❯
+    </button>
+</div>
+
+    <p>
+      野球が好きなのでホームランダービー風のゲームを制作<br>
+ボールとバットが接触する瞬間の当たり判定や、打球の飛距離を計測する処理の実装に苦戦しました。<br>
+そこで既存の実装方法を調査するだけでなく、自身でも処理の流れを整理しながら複数の方法を検証し、試行錯誤を重ねることで実装を完成させました。
+    </p>
+
+    <h3>--使用技術--</h3>
+    <ul>
+      <li>C＃</li>
+      <li>Unity</li>
+    </ul>
+  </div>
+</div>
+
+          </section>
+
+<!-- 使用技術（再帰バックトラック法等） -->
+          <section class="technotes" id="technotes">
+            <div class="c-inner-lv1">
+              <h2 class="c-heading-lv1 js-fadein">Tech Notes</h2>
+              <div class="container">
+                <div class="row technotes__row">
+                  <div class="col-md-3 technotes__block js-fadein--queue">
+                    <h3 class="technotes__title">バックトラック法</h3>
+                    <div class="technotes__icon-box">
+                      <i class="fas fa-project-diagram technotes__icon"></i>
+                    </div>
+                    <div class="technotes__box">
+                      <p class="technotes__txt">
+                        後期C++制作の際に使用した技術です<br />
+                        マップのランダム生成として使用しました。<br />
+                        ゲームステージにおいてランダム生成は必要不可欠だったのですが<br />
+                        ランダム生成にも多くの種類があり、その中でも再帰バックトラック法が実装しやすく制作するゲームにも合っていたので、
+                        今回この方法を採用しました。
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-md-3 technotes__block js-fadein--queue">
+                    <h3 class="technotes__title">AABB当たり判定</h3>
+                    <div class="technotes__icon-box">
+                      <i class="fas fa-cube technotes__icon"></i>
+                    </div>
+                    <div class="technotes__box">
+                      <p class="technotes__txt">
+                        同作品ではAABB当たり判定も実装しました。<br />
+                        今まで使用していた当たり判定がステージを傾けた際に当たり判定が傾ける前の位置に取り残され、ボールがすり抜ける事が多々発生したので今回の制作と相性が悪いと思い、<br />
+                        今回、初めてAABB当たり判定を使用したところボールがすり抜ける事がなく上手くいったので使用しました。
+                        
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-md-3 technotes__block js-fadein--queue">
+                    <h3 class="technotes__title">フォグ・演出設計</h3>
+                    <div class="technotes__icon-box">
+                      <i class="fas fa-draw-polygon technotes__icon"></i>
+                    </div>
+                    <div class="technotes__box">
+                      <p class="technotes__txt">
+                        また、記憶をモチーフに「思い出していく感覚」を空間演出とする為にフォグ演出も取り入れました。<br />
+                        ただし、フォグで曖昧化された視界のみだと限界はある為、他にもゲーム画面に遷移後本棚が上から降らせる、床を揺らがせる事によって記憶を辿る過程を象徴させ、<br />
+                        プレイヤーは空間そのものに翻弄される構造にしました。
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+<!-- 連絡手段 -->
+          <section class="contact" id="contact">
+            <div class="c-inner-lv1">
+              <h2 class="c-heading-lv1 js-fadein">Contact</h2>
+              <div class="container">
+                <p class="row text-center contact__row js-fadein">
+                  ポートフォリオをご覧頂きありがとうございます。<br
+                    class="u-hidden-pc"
+                  /><br>ご連絡は下記のメールアドレスにてお願い致します。
+                </p>
+                <div class="contact__block js-fadein">
+                    <div class="contact__inner">
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=241317@st.yoshida-g.ac.jp" class="contact__mail">
+                     241317@st.yoshida-g.ac.jp
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          </div>
+          </main>
+          <footer class="footer">
+            <div class="footer__inner container">
+              <p class="footer__cr">
+                Copyright © 2026 Marina Harada Portfolio All rights reserved.
+              </p>
+            </div>
+          </footer>
+    </div>
+  </body>
+</html>
